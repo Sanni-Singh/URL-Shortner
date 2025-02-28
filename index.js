@@ -27,7 +27,7 @@ app.post("/longToShortURL", express.json(),(req,res)=>{
 
     res.json({
         success: true,
-        URL: `https://url-shortener-xrl3.onrender.com/${shortURL}`
+        URL: `https://url-shortner-heb6.onrender.com/${shortURL}`
     })
 })
 
